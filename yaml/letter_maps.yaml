@@ -1,0 +1,62 @@
+{'&': ampersand, +: plus, ',': comma, '-': hyp, .: period, /: backslash, '0': '0',
+  '1': '1', '2': '2', '3': '3', '4': '4', '5': '5', '6': '6', '7': '7', '8': '8',
+  '9': '9', P: pcap, Q: qcap, S: scap, a: a, accute: accute, b: b, bracketclose: bracketclose,
+  bracketopen: bracketopen, breathing: breathing, breathingaccute: breathingaccute,
+  breathingcircumflect: breathingcircumflect, breathinggrave: breathinggrave, breathless: breathless,
+  breathlessaccute: breathlessaccute, breathlesscircumflect: breathlesscircumflect,
+  breathlessgrave: breathlessgrave, c: c, circumflect: circumflect, comma: comma,
+  d: d, d_ital: d_ital, e: e, f: f, g: g, grave: grave, h: h, hyp: hyp, i: i, iotasub: iotasub,
+  k: k, l: l, leftpart: leftpart, letterpart: letterpart, m: m, macron: macron, multi: multi,
+  n: n, noise: noise, oleft: oleft, p: p, period: period, q: q, r: r, rightpart: rightpart,
+  s: s, t: t, toppart: toppart, u: u, v: v, w: w, x: x, y: y, z: z, "\xB4": accute,
+  "\u0391": "\u03B1cap", "\u0392": "\u0392cap", "\u0393": "\u03B3cap", "\u0394": "\u03B4\
+    cap", "\u0395": "\u03B5cap", "\u0397": "\u03B7cap", "\u0399": "\u03B9cap", "\u039A": "\u03BA\
+    cap", "\u039B": "\u03BBcap", "\u039C": "\u03BCcap", "\u039D": "\u03BDcap", "\u039F": "\u03BF\
+    cap", "\u03A0": "\u03C0cap", "\u03A1": "\u03C1cap", "\u03A3": "\u03C3cap", "\u03A4": "\u03C4\
+    cap", "\u03A5": "\u03C5cap", "\u03A6": "\u03C6cap", "\u03A9": "\u03C9cap", "\u03AC": "\u03B1\
+    accute", "\u03AD": "\u03B5accute", "\u03AF": "\u03B9accute", "\u03B1": "\u03B1",
+  "\u03B1accute\u03BB": "\u03B1accute\u03BB", "\u03B1breathless": "\u03B1breathless",
+  "\u03B1cap": "\u03B1cap", "\u03B1left": "\u03B1left", "\u03B1\u03BB": "\u03B1\u03BB",
+  "\u03B1\u03BD": "\u03B1\u03BD", "\u03B2": "\u03B2", "\u03B3": "\u03B3", "\u03B3cap": "\u03B3\
+    cap", "\u03B3capleft": "\u03B3capleft", "\u03B3\u03B7": "\u03B3\u03B7", "\u03B3\u03C5": "\u03B3\u03C5",
+  "\u03B3\u03C5left": "\u03B3\u03C5left", "\u03B4": "\u03B4", "\u03B4cap": "\u03B4\
+    cap", "\u03B5": "\u03B5", "\u03B5accute": "\u03B5accute", "\u03B5breathinggrave": "\u03B5\
+    breathinggrave", "\u03B5breathless": "\u03B5breathless", "\u03B5cap": "\u03B5\
+    cap", "\u03B5grave": "\u03B5grave", "\u03B6": "\u03B6", "\u03B7": "\u03B7", "\u03B7cap": "\u03B7\
+    cap", "\u03B7capleft": "\u03B7capleft", "\u03B7capright": "\u03B7capright", "\u03B7iotasub": "\u03B7\
+    iotasub", "\u03B7left": "\u03B7left", "\u03B7right": "\u03B7right", "\u03B8": "\u03B8",
+  "\u03B8cap": "\u03B8cap", "\u03B9": "\u03B9", "\u03B9accute": "\u03B9accute", "\u03B9accute\u03B4": "\u03B9\
+    accute\u03B4", "\u03B9breathing": "\u03B9breathing", "\u03B9breathless": "\u03B9\
+    breathless", "\u03B9breathlesscircumflect\u03B4": "\u03B9breathlesscircumflect\u03B4",
+  "\u03B9cap": "\u03B9cap", "\u03B9grave": "\u03B9grave", "\u03B9\u03BD": "\u03B9\u03BD",
+  "\u03BA": "\u03BA", "\u03BAcap": "\u03BAcap", "\u03BB": "\u03BB", "\u03BBcap": "\u03BB\
+    cap", "\u03BB\u03BB": "\u03BB\u03BB", "\u03BC": "\u03BC", "\u03BCcap": "\u03BC\
+    cap", "\u03BCcapleft": "\u03BCcapleft", "\u03BCcapright": "\u03BCcapright", "\u03BCleft": "\u03BC\
+    left", "\u03BC\u03B5": "\u03BC\u03B5", "\u03BD": "\u03BD", "\u03BDcap": "\u03BD\
+    cap", "\u03BDleft": "\u03BDleft", "\u03BDright": "\u03BDright", "\u03BDright\u03B7": "\u03BD\
+    right\u03B7", "\u03BDright\u03B7left": "\u03BDright\u03B7left", "\u03BD\u03B7": "\u03BD\u03B7",
+  "\u03BD\u03BF": "\u03BD\u03BF", "\u03BD\u03C4": "\u03BD\u03C4", "\u03BE": "\u03BE",
+  "\u03BF": "\u03BF", "\u03BFbreathing": "\u03BFbreathing", "\u03BFcap": "\u03BFcap",
+  "\u03BFcapleft": "\u03BFcapleft", "\u03BFcapright": "\u03BFcapright", "\u03BFleft": "\u03BF\
+    left", "\u03BFright": "\u03BFright", "\u03BF\u03C5": "\u03BF\u03C5", "\u03C0": "\u03C0",
+  "\u03C0cap": "\u03C0cap", "\u03C1": "\u03C1", "\u03C1cap": "\u03C1cap", "\u03C1capleft": "\u03C1\
+    capleft", "\u03C1right": "\u03C1right", "\u03C1\u03B1": "\u03C1\u03B1", "\u03C1\u03BF": "\u03C1\u03BF",
+  "\u03C2": "\u03C3final", "\u03C3": "\u03C3", "\u03C3cap": "\u03C3cap", "\u03C3final": "\u03C3\
+    final", "\u03C3left": "\u03C3left", "\u03C3\u03C4": "\u03C3\u03C4", "\u03C3\u03C5": "\u03C3\u03C5",
+  "\u03C4": "\u03C4", "\u03C4bottom": "\u03C4bottom", "\u03C4cap": "\u03C4cap", "\u03C4top": "\u03C4\
+    top", "\u03C4\u03B7": "\u03C4\u03B7", "\u03C4\u03B7left": "\u03C4\u03B7left",
+  "\u03C4\u03C5": "\u03C4\u03C5", "\u03C4\u1FC3": "\u03C4\u03B7iotasub", "\u03C5": "\u03C5",
+  "\u03C5breathless\u03B4": "\u03C5breathless\u03B4", "\u03C5left": "\u03C5left",
+  "\u03C5right": "\u03C5right", "\u03C5\u03B3": "\u03C5\u03B3", "\u03C5\u03B3\u03B7": "\u03C5\u03B3\
+    \u03B7", "\u03C5\u03C0": "\u03C5\u03C0", "\u03C5\u03C4": "\u03C5\u03C4", "\u03C6": "\u03C6",
+  "\u03C7": "\u03C7", "\u03C7\u03C1": "\u03C7\u03C1", "\u03C8": "\u03C8", "\u03C9": "\u03C9",
+  "\u03C9left": "\u03C9left", "\u03C9right": "\u03C9right", "\u1F00": "\u03B1breathless",
+  "\u1F00\u03BB": "\u03B1breathless\u03BB", "\u1F00\u03BB\u03BB": "\u03B1breathless\u03BB\
+    \u03BB", "\u1F05": "\u03B1breathingaccute", "\u1F10": "\u03B5breathless", "\u1F11": "\u03B5\
+    breathing", "\u1F15": "\u03B5breathingaccute", "\u1F30": "\u03B9breathless", "\u1F31": "\u03B9\
+    breathing", "\u1F34": "\u03B9breathlessaccute", "\u1F37": "\u03B9breathingcircumflect",
+  "\u1F40": "\u03BFbreathless", "\u1F50": "\u03C5breathless", "\u1F72": "\u03B5grave",
+  "\u1F76": "\u03B9grave", "\u1F78": "\u03BFgrave", "\u1FBD": breathless, "\u1FBE": iotasub,
+  "\u1FC0": circumflect, "\u1FC3": "\u03B7iotasub", "\u1FCD": breathlessgrave, "\u1FCE": breathlessaccute,
+  "\u1FCF": breathlesscircumflect, "\u1FD2": "\u03B9gravediacritic", "\u1FDD": breathinggrave,
+  "\u1FDE": breathingaccute, "\u1FDF": breathingcircumflect, "\u1FEF": grave, "\u1FFE": breathing}

@@ -1,0 +1,49 @@
+{'0': '0', '1': '1', '2': '2', '3': '3', '4': '4', '5': '5', '6': '6', '7': '7', '8': '8',
+  '9': '9', a: a, accute: "\xB4", ampersand: '&', b: b, backslash: /, bracketclose: ),
+  bracketopen: (, breathing: "\u1FFE", breathingaccute: "\u1FDE", breathingcircumflect: "\u1FDF",
+  breathinggrave: "\u1FDD", breathless: "\u1FBD", breathlessaccute: "\u1FCE", breathlesscircumflect: "\u1FCF",
+  breathlessgrave: "\u1FCD", c: c, circumflect: "\u1FC0", comma: ',', d: d, d_ital: d_ital,
+  e: e, f: f, g: g, grave: "\u1FEF", h: h, hyp: '-', i: i, iotasub: "\u1FBE", k: k,
+  l: l, leftpart: leftpart, letterpart: _LP_, letterplus: _LPlus_, m: m, macron: _MAC_,
+  multi: _MULT_, n: n, noise: noise, oleft: oleft, p: p, pcap: P, period: ., plus: +,
+  q: q, qcap: Q, r: r, rightpart: rightpart, s: s, scap: S, t: t, toppart: toppart,
+  u: u, v: v, w: w, x: x, y: y, z: z, "\u0392cap": "\u0392", "\u03B1": "\u03B1", "\u03B1accute": "\u03AC",
+  "\u03B1accute\u03BB": "\u03B1accute\u03BB", "\u03B1breathingaccute": "\u1F05", "\u03B1breathless": "\u1F00",
+  "\u03B1breathless\u03BB": "\u1F00\u03BB", "\u03B1breathless\u03BB\u03BB": "\u1F00\u03BB\
+    \u03BB", "\u03B1cap": "\u0391", "\u03B1left": "\u03B1left", "\u03B1\u03BB": "\u03B1\u03BB",
+  "\u03B1\u03BD": "\u03B1\u03BD", "\u03B2": "\u03B2", "\u03B3": "\u03B3", "\u03B3cap": "\u0393",
+  "\u03B3capleft": "\u03B3capleft", "\u03B3\u03B7": "\u03B3\u03B7", "\u03B3\u03C5": "\u03B3\u03C5",
+  "\u03B3\u03C5left": "\u03B3\u03C5left", "\u03B4": "\u03B4", "\u03B4cap": "\u0394",
+  "\u03B5": "\u03B5", "\u03B5accute": "\u03B5accute", "\u03B5breathing": "\u1F11",
+  "\u03B5breathingaccute": "\u1F15", "\u03B5breathinggrave": "\u03B5breathinggrave",
+  "\u03B5breathless": "\u1F10", "\u03B5cap": "\u0395", "\u03B5grave": "\u1F72", "\u03B6": "\u03B6",
+  "\u03B7": "\u03B7", "\u03B7cap": "\u0397", "\u03B7capleft": "\u03B7capleft", "\u03B7capright": "\u03B7\
+    capright", "\u03B7iotasub": "\u1FC3", "\u03B7left": "\u03B7left", "\u03B7right": "\u03B7\
+    right", "\u03B8": "\u03B8", "\u03B8cap": "\u0398", "\u03B9": "\u03B9", "\u03B9accute": "\u03B9\
+    accute", "\u03B9accute\u03B4": "\u03B9accute\u03B4", "\u03B9breathing": "\u1F31",
+  "\u03B9breathingcircumflect": "\u1F37", "\u03B9breathless": "\u1F30", "\u03B9breathlessaccute": "\u1F34",
+  "\u03B9breathlesscircumflect\u03B4": "\u03B9breathlesscircumflect\u03B4", "\u03B9cap": "\u0399",
+  "\u03B9grave": "\u1F76", "\u03B9gravediacritic": "\u1FD2", "\u03B9\u03BD": "\u03B9\u03BD",
+  "\u03BA": "\u03BA", "\u03BAcap": "\u039A", "\u03BB": "\u03BB", "\u03BBcap": "\u039B",
+  "\u03BB\u03BB": "\u03BB\u03BB", "\u03BC": "\u03BC", "\u03BCcap": "\u039C", "\u03BCcapleft": "\u03BC\
+    capleft", "\u03BCcapright": "\u03BCcapright", "\u03BCleft": "\u03BCleft", "\u03BC\u03B5": "\u03BC\u03B5",
+  "\u03BD": "\u03BD", "\u03BDcap": "\u039D", "\u03BDleft": "\u03BDleft", "\u03BDright": "\u03BD\
+    right", "\u03BDright\u03B7": "\u03BDright\u03B7", "\u03BDright\u03B7left": "\u03BD\
+    right\u03B7left", "\u03BD\u03B7": "\u03BD\u03B7", "\u03BD\u03BF": "\u03BD\u03BF",
+  "\u03BD\u03C4": "\u03BD\u03C4", "\u03BE": "\u03BE", "\u03BF": "\u03BF", "\u03BFbreathing": "\u03BF\
+    breathing", "\u03BFbreathless": "\u1F40", "\u03BFcap": "\u039F", "\u03BFcapleft": "\u03BF\
+    capleft", "\u03BFcapright": "\u03BFcapright", "\u03BFgrave": "\u1F78", "\u03BFleft": "\u03BF\
+    left", "\u03BFright": "\u03BFright", "\u03BF\u03C5": "\u03BF\u03C5", "\u03C0": "\u03C0",
+  "\u03C0cap": "\u03A0", "\u03C1": "\u03C1", "\u03C1cap": "\u03A1", "\u03C1capleft": "\u03C1\
+    capleft", "\u03C1right": "\u03C1right", "\u03C1\u03B1": "\u03C1\u03B1", "\u03C1\u03BF": "\u03C1\u03BF",
+  "\u03C3": "\u03C3", "\u03C3cap": "\u03A3", "\u03C3final": "\u03C2", "\u03C3left": "\u03C3\
+    left", "\u03C3\u03C4": "\u03C3\u03C4", "\u03C3\u03C5": "\u03C3\u03C5", "\u03C4": "\u03C4",
+  "\u03C4bottom": "\u03C4bottom", "\u03C4cap": "\u03A4", "\u03C4top": "\u03C4top",
+  "\u03C4\u03B7": "\u03C4\u03B7", "\u03C4\u03B7iotasub": "\u03C4\u1FC3", "\u03C4\u03B7left": "\u03C4\u03B7\
+    left", "\u03C4\u03C5": "\u03C4\u03C5", "\u03C5": "\u03C5", "\u03C5breathless": "\u1F50",
+  "\u03C5breathless\u03B4": "\u03C5breathless\u03B4", "\u03C5cap": "\u03A5", "\u03C5left": "\u03C5\
+    left", "\u03C5right": "\u03C5right", "\u03C5\u03B3": "\u03C5\u03B3", "\u03C5\u03B3\u03B7": "\u03C5\u03B3\
+    \u03B7", "\u03C5\u03C0": "\u03C5\u03C0", "\u03C5\u03C4": "\u03C5\u03C4", "\u03C6": "\u03C6",
+  "\u03C6cap": "\u03A6", "\u03C7": "\u03C7", "\u03C7\u03C1": "\u03C7\u03C1", "\u03C8": "\u03C8",
+  "\u03C9": "\u03C9", "\u03C9cap": "\u03A9", "\u03C9left": "\u03C9left", "\u03C9right": "\u03C9\
+    right"}
