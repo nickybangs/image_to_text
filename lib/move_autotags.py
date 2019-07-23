@@ -5,5 +5,5 @@ import config
 mp = Path('/Users/nicholasbangs/Notebooks/personal/greek_reader_master')
 config.master_path = mp
 
-config.letter_dest = mp/'lgi_data'/'new_lgi_data'
+config.letter_dest = mp/'herodotus'/'new_split'
 move_autotags()

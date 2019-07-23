@@ -87,7 +87,7 @@ def get_next_ind(ltr):
 		avail = letter_dict[ltr][1]
 		if len(avail) > 0:
 			ind = avail[0]
-			np.delete(avail, 0)
+			avail = np.delete(avail, 0)
 			letter_dict[ltr] = (intind, avail)
 		else:
 			ind = intind
@@ -114,7 +114,11 @@ def get_mistags():
 
 def move_autotags():
 	letter_dest = config.letter_dest
+	get_letter_dict()
 	autotag_pth = letter_dest/'auto_tags'
 	for d in filter(lambda x: x.is_dir(), autotag_pth.ls()):
-		os.system('mkdir -p {0}'.format(letter_dest/d.name))
-		os.system('mv {0}/* {1}/'.format(d, letter_dest/d.name))
+		for f in d.ls():
+			if '.jpg' in f.name:
+				os.system('mkdir -p {0}'.format(letter_dest/d.name))
+				new_fname = '{}_{}.jpg'.format(d.name, get_next_ind(d.name))
+				os.system('mv {0} {1}'.format(f, letter_dest/d.name/new_fname))

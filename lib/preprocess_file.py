@@ -10,7 +10,7 @@ from image_handling import *
 from pred_handler import *
 import config
 
-pic_name = 'GK_RDR_PG3_2'
+pic_name = 'hr_test'
 
 mp = Path('/Users/nicholasbangs/Notebooks/personal/greek_reader_master')
 config.master_path = mp
@@ -18,10 +18,9 @@ config.master_path = mp
 defaults.device = torch.device('cpu')
 model_path = mp/'models'
 model_name = 'rn_34.pkl'
-config.model = load_learner(model_path, model_name)
-
-config.letter_dest = mp/'lgi_data'/'gk_letter_imgs'
-config.temp_path = mp/'lgi_data'
+config.model = load_learner(model_path,model_name)
+config.letter_dest = mp
+config.temp_path = mp
 get_letter_dict()
 
 gr_path = mp/'greek_pages'/'page_graphs'

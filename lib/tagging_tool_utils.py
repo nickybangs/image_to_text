@@ -85,7 +85,8 @@ def get_context(b):
 	lb, ub, lbr, ubr = get_bounds(itr,context=1)
 	imwrite(temp_path/'temp_letter_context.jpg', imgarr[lbr:ubr,lb:ub])
 	image.value = open(temp_path/'temp_letter_context.jpg', 'rb').read()
-	
+
+
 
 def reset_context(b):
 	output = config.output
@@ -93,6 +94,7 @@ def reset_context(b):
 	temp_path = config.temp_path
 	output.clear_output()
 	image.value = open(temp_path/'temp_letter.jpg', "rb").read()
+
 
 
 def get_next_im():
