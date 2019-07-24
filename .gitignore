@@ -1,0 +1,8 @@
+.DS_Store
+.gitignore.swp
+all_data/
+greek_pages/
+lib/__pycache__/
+lib/graph/__pycache__/
+models/
+nbs/.ipynb_checkpoints/
