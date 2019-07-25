@@ -87,14 +87,12 @@ def get_context(b):
 	image.value = open(temp_path/'temp_letter_context.jpg', 'rb').read()
 
 
-
 def reset_context(b):
 	output = config.output
 	image = config.image
 	temp_path = config.temp_path
 	output.clear_output()
 	image.value = open(temp_path/'temp_letter.jpg', "rb").read()
-
 
 
 def get_next_im():
