@@ -6,7 +6,7 @@ An application to turn an image into an editable document.
 <br/>
 <p style="font-size:14px">The aim of this project is to develop an application that can take an image of Ancient Greek (sometimes mixed with English) text and convert it into a text file that can be edited. The project itself solves 3 problems, and combines them together to create the final application:</p>
 <ul style="font-size:14px">
-	<li>Problem One: How can you take an image and split it into it's distinct characters?</li>
+	<li>Problem One: How can you take an image and split it into its distinct characters?</li>
 	<li>Problem Two: Having split the image into its characters, how can you then identify each character?</li>
 	<li>Problem Three: Once you have a prediction for each character, how can you then order them correctly in a text document such that you accurately reflect the original text?</li>
 </ul>
