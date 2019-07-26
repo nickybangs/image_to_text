@@ -15,7 +15,7 @@ An application to turn an image into an editable document.
 
 <h3>Problem One: How can you get the characters out of an image of text?</h3>
 <p style="font-size:14px">The first problem I faced was how to get the individual character images out of a page like the one below<br/><img src="greek_pages/page_images/GK_RDR_PG3_2.jpeg" width="500" height="250" /><br/>
-To solve this I figured that the best I could do was get all of the connected components within the image using the <a href="https://algs4.cs.princeton.edu/15uf/">Union Find algorithm</a> (implemented in <code>lib/graph/image_graph.py</code>) where a connected component is defined as any contiguous set of black pixels.
+To solve this I figured that the best I could do was get all of the connected components within the image using the <a href="https://algs4.cs.princeton.edu/15uf/">Union Find algorithm</a> (implemented in <code>lib/graph/support.py</code>) where a connected component is defined as any contiguous set of black pixels.
 
 In this case my definition would mean that to qualify as a character, there must be a set of black pixels, that are connected to each other by some continous path of other black pixels. This feels like a reasonable definition, and in fact it does an excellent job of getting individual characters. The two areas where it doesn't quite work are for characters that have faded ink and are split into multiple parts, such as the Eta in this image:<br/>
 <img src="imgs/letter_parts.png" width="70" height="50" /> <br/> and for characters that are connected to each other by the typeface, and thus create a cluster of two or more characters: <br/>
@@ -23,7 +23,7 @@ In this case my definition would mean that to qualify as a character, there must
 
 All in all however, the methodology seemed to work great, and I decided to allow the existence of letter parts and letter clusters, and classify them as such. To see how I handle each in the final application, please see the <a href="https://github.com/nickybangs/image_to_text/blob/master/nbs/image_splitting.ipynb">image splitting notebook</a> and the image mergine notebook (coming soon). 
 
-After I split the image into its connected components, I take note of the four corners of each component and store them in a <code>.yaml</code> file to be used in the labeling process (see labeling section below as well as notebook called <a href="https://github.com/nickybangs/image_to_text/blob/master/nbs/greek_tagging_tool.ipynb">greek tagging tool notebook</a>).
+After I split the image into its connected components (code defined in <code>get_components</code> in <code>lib/graph/image_graph.py</code>, I take note of the four corners of each component and store them in a <code>.yaml</code> file to be used in the labeling process (see labeling section below as well as notebook called <a href="https://github.com/nickybangs/image_to_text/blob/master/nbs/greek_tagging_tool.ipynb">greek tagging tool notebook</a>).
 
 Problem one solved, now on to problem two.</p>
 
