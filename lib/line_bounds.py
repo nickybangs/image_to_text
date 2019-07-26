@@ -14,10 +14,9 @@ def sign(x, y):
 		return -1
 	else:
 		return 0
-	
+
 
 def get_line_splits(gkarray):
-	
 	linesums = [g.sum() for g in gkarray]
 	LO, HI = min(linesums), max(linesums)
 	DELTA = (HI - LO) * .15
@@ -59,7 +58,7 @@ def clean_peaks_and_vals(vchanges, vcvals, DELTA):
 		minpoint, minval = get_point_and_val(indices, vchanges[1], vcvals[1])
 		line_points.append(minpoint)
 		line_vals.append(minval)
-	
+
 	indices = [vchanges[1].index(v) for v in vchanges[1] if v > vchanges[-1][-1]]
 	minpoint, minval = get_point_and_val(indices, vchanges[1], vcvals[1])
 	line_points.append(minpoint)
@@ -146,7 +145,7 @@ def get_split_images(sub_array, sp_inds, top, gkarray):
 	for i in range(len(top_im)):
 		if len(top_im[i]) < top_pad:
 			top_im[i] = np.pad(top_im[i], (0, (top_pad-len(top_im[i]))), mode='constant', constant_values=255)
-		
+
 	for i in range(len(bot_im)):
 		if len(bot_im[i]) < bottom_pad:
 			bot_im[i] = np.pad(bot_im[i], ((bottom_pad-len(bot_im[i])),0), mode='constant', constant_values=255)

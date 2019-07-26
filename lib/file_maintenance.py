@@ -36,7 +36,6 @@ def get_max_im_id(imgs):
 
 
 def get_present_ids(imgs):
-	
 	if isinstance(imgs, list):
 		img_list = imgs
 	else:
@@ -66,7 +65,7 @@ def update_letter_names(dirs):
 			present[ind] = 1
 			new_imname = '{}_{}.jpg'.format(d.name, ind)
 			os.system('mv {0} {1}'.format(f, d/new_imname))
-		
+
 
 def get_letter_dict():
 	letter_dest = config.letter_dest

@@ -8,7 +8,6 @@ import config
 
 
 def get_image_array(impath):
-	
 	image_array = Image.open(impath)
 	image_array = image_array.convert('L')
 	return np.asarray(image_array)
@@ -65,5 +64,5 @@ def get_components(G):
 		lbr, ubr = min([c // cols for c in components[k]]), max([c // cols for c in components[k]])
 		if len(components[k]) > 5:
 			temp_comp[k] = (lb, ub, lbr, ubr)
-		
+
 	return temp_comp

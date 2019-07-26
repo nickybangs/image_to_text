@@ -36,11 +36,10 @@ class EdgeWeightedDigraph:
 		v = int(e._from())
 		self.adj[v].append(e)
 		self.E += 1
-		
 
 	def __repr__(self):
 		graph_string = ''
 		for i in range(self.V):
 			for other in self.adj[i]:
 				graph_string += '{}\n'.format(other)
-		return graph_string	
+		return graph_string

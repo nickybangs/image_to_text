@@ -1,5 +1,3 @@
-import config
-from file_maintenance import *
 from pred_handler import *
 
 def get_letter():
