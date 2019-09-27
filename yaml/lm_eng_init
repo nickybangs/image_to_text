@@ -1,0 +1,20 @@
+
+lang_model_dict = {k : k.split('_')[0] for k in ['q_bold','r_bold', 'r_ital', 's_bold', 's_ital', 't_bold', 't_cap', 't_ital', 'u_bold', 'u_ital','a_bold',
+                                                 'b_bold', 'b_ital', 'c_bold', 'd_bold', 'd_ital', 'e_bold', 'f_bold', 'f_ital', 'h_ital','i_bold', 'i_cap',
+                                                 'i_ital', 'l_bold', 'l_ital', 'm_ital', 'n_bold', 'n_ital', 'o_bold', 'o_ital', 'p_bold','p_ital']}
+lang_model_dict['ncap'] = 'n'
+lang_model_dict['lcap_ital'] = 'l'
+lang_model_dict['icap_ital'] = 'i'
+lang_model_dict['hcap'] = 'h'
+lang_model_dict['fcap_ital'] = 'f'
+lang_model_dict['dcap'] = 'd'
+lang_model_dict['vcap'] = 'v'
+lang_model_dict['scap_ital'] = 's'
+lang_model_dict['tcap'] = 't'
+lang_model_dict['ν'] = 'v'
+lang_model_dict['ο'] = 'o'
+lang_model_dict['j'] = 'i'
+lang_model_dict['v_bold'] = 'v'
+
+lang_model_skip = ['0', '1', '2', '3', '4', '5', '6', '7', '9', 'bracketclose', 'bracketopen',
+                   'comma', 'horiz_bar', 'hyp', 'letterpart', 'noise', 'open_quote', 'period']

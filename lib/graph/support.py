@@ -19,7 +19,7 @@ class UF:
 	def union(self, p, q):
 		i = self.root(p)
 		j = self.root(q)
-	
+
 		if self.num_elems[i] < self.num_elems[j]:
 			self.roots[i] = self.roots[j]
 			self.num_elems[j] += self.num_elems[i]

@@ -1,31 +1,43 @@
 {'&': ampersand, +: plus, ',': comma, '-': hyp, .: period, /: backslash, '0': '0',
   '1': '1', '2': '2', '3': '3', '4': '4', '5': '5', '6': '6', '7': '7', '8': '8',
-  '9': '9', P: pcap, Q: qcap, S: scap, a: a, accute: accute, b: b, bracketclose: bracketclose,
+  '9': '9', '?': question_mark, P: pcap, Q: qcap, S: scap, T: tcap, a: a, a_bold: a_bold,
+  accute: accute, b: b, b_bold: b_bold, b_ital: b_ital, bc: bracketclose, bcap: bcap,
+  bcap_bold: bcap_bold, bo: bracketopen, bracket_open: bracket_open, bracketclose: bracketclose,
   bracketopen: bracketopen, breathing: breathing, breathingaccute: breathingaccute,
   breathingcircumflect: breathingcircumflect, breathinggrave: breathinggrave, breathless: breathless,
   breathlessaccute: breathlessaccute, breathlesscircumflect: breathlesscircumflect,
-  breathlessgrave: breathlessgrave, c: c, circumflect: circumflect, comma: comma,
-  d: d, d_ital: d_ital, e: e, f: f, g: g, grave: grave, h: h, hyp: hyp, i: i, iotasub: iotasub,
-  k: k, l: l, leftpart: leftpart, letterpart: letterpart, m: m, macron: macron, multi: multi,
-  n: n, noise: noise, oleft: oleft, p: p, period: period, q: q, r: r, rightpart: rightpart,
-  s: s, t: t, toppart: toppart, u: u, v: v, w: w, x: x, y: y, z: z, "\xB4": accute,
-  "\u0391": "\u03B1cap", "\u0392": "\u0392cap", "\u0393": "\u03B3cap", "\u0394": "\u03B4\
-    cap", "\u0395": "\u03B5cap", "\u0397": "\u03B7cap", "\u0399": "\u03B9cap", "\u039A": "\u03BA\
-    cap", "\u039B": "\u03BBcap", "\u039C": "\u03BCcap", "\u039D": "\u03BDcap", "\u039F": "\u03BF\
-    cap", "\u03A0": "\u03C0cap", "\u03A1": "\u03C1cap", "\u03A3": "\u03C3cap", "\u03A4": "\u03C4\
-    cap", "\u03A5": "\u03C5cap", "\u03A6": "\u03C6cap", "\u03A9": "\u03C9cap", "\u03AC": "\u03B1\
-    accute", "\u03AD": "\u03B5accute", "\u03AF": "\u03B9accute", "\u03B1": "\u03B1",
-  "\u03B1accute\u03BB": "\u03B1accute\u03BB", "\u03B1breathless": "\u03B1breathless",
-  "\u03B1cap": "\u03B1cap", "\u03B1left": "\u03B1left", "\u03B1\u03BB": "\u03B1\u03BB",
-  "\u03B1\u03BD": "\u03B1\u03BD", "\u03B2": "\u03B2", "\u03B3": "\u03B3", "\u03B3cap": "\u03B3\
-    cap", "\u03B3capleft": "\u03B3capleft", "\u03B3\u03B7": "\u03B3\u03B7", "\u03B3\u03C5": "\u03B3\u03C5",
-  "\u03B3\u03C5left": "\u03B3\u03C5left", "\u03B4": "\u03B4", "\u03B4cap": "\u03B4\
-    cap", "\u03B5": "\u03B5", "\u03B5accute": "\u03B5accute", "\u03B5breathinggrave": "\u03B5\
-    breathinggrave", "\u03B5breathless": "\u03B5breathless", "\u03B5cap": "\u03B5\
-    cap", "\u03B5grave": "\u03B5grave", "\u03B6": "\u03B6", "\u03B7": "\u03B7", "\u03B7cap": "\u03B7\
-    cap", "\u03B7capleft": "\u03B7capleft", "\u03B7capright": "\u03B7capright", "\u03B7iotasub": "\u03B7\
-    iotasub", "\u03B7left": "\u03B7left", "\u03B7right": "\u03B7right", "\u03B8": "\u03B8",
-  "\u03B8cap": "\u03B8cap", "\u03B9": "\u03B9", "\u03B9accute": "\u03B9accute", "\u03B9accute\u03B4": "\u03B9\
+  breathlessgrave: breathlessgrave, c: c, c_bold: c_bold, ccap: ccap, circumflect: circumflect,
+  comma: comma, d: d, d_bold: d_bold, d_ital: d_ital, dcap: dcap, e: e, e_bold: e_bold,
+  f: f, f_bold: f_bold, f_ital: f_ital, fcap_ital: fcap_ital, g: g, g_ital: g_ital,
+  grave: grave, h: h, h_bold: h_bold, h_ital: h_ital, hcap: hcap, horiz_bar: horiz_bar,
+  hyp: hyp, i: i, i_bold: i_bold, i_cap: i_cap, i_ital: i_ital, icap: icap, icap_ital: icap_ital,
+  iotasub: iotasub, j: j, k: k, l: l, l_bold: l_bold, l_ital: l_ital, lcap_ital: lcap_ital,
+  leftpart: leftpart, letterpart: letterpart, lp: letterplus, m: m, m_bold: m_bold,
+  m_ital: m_ital, macron: macron, multi: multi, n: n, n_bold: n_bold, n_ital: n_ital,
+  ncap: ncap, noise: noise, o: o, o_bold: o_bold, o_ital: o_ital, ocap: ocap, oleft: oleft,
+  open_quote: open_quote, p: p, p_bold: p_bold, p_ital: p_ital, period: period, q: q,
+  q_bold: q_bold, q_cap: q_cap, q_ital: q_ital, r: r, r_bold: r_bold, r_ital: r_ital,
+  rcap: rcap, rightpart: rightpart, s: s, s_bold: s_bold, s_ital: s_ital, scap_ital: scap_ital,
+  t: t, t_bold: t_bold, t_cap: t_cap, t_ital: t_ital, tcap: tcap, tcap_bold: tcap_bold,
+  toppart: toppart, u: u, u_bold: u_bold, u_ital: u_ital, v: v, v_bold: v_bold, v_ital: v_ital,
+  vcap: vcap, w: w, x: x, y: y, z: z, "\xB4": accute, "\u0391": "\u03B1cap", "\u0392": "\u0392\
+    cap", "\u0393": "\u03B3cap", "\u0394": "\u03B4cap", "\u0395": "\u03B5cap", "\u0397": "\u03B7\
+    cap", "\u0399": "\u03B9cap", "\u039A": "\u03BAcap", "\u039B": "\u03BBcap", "\u039C": "\u03BC\
+    cap", "\u039D": "\u03BDcap", "\u039F": "\u03BFcap", "\u03A0": "\u03C0cap", "\u03A1": "\u03C1\
+    cap", "\u03A3": "\u03C3cap", "\u03A4": "\u03C4cap", "\u03A5": "\u03C5cap", "\u03A6": "\u03C6\
+    cap", "\u03A9": "\u03C9cap", "\u03AC": "\u03B1accute", "\u03AD": "\u03B5accute",
+  "\u03AF": "\u03B9accute", "\u03B1": "\u03B1", "\u03B1accute\u03BB": "\u03B1accute\u03BB",
+  "\u03B1breathless": "\u03B1breathless", "\u03B1cap": "\u03B1cap", "\u03B1left": "\u03B1\
+    left", "\u03B1\u03BB": "\u03B1\u03BB", "\u03B1\u03BD": "\u03B1\u03BD", "\u03B2": "\u03B2",
+  "\u03B3": "\u03B3", "\u03B3cap": "\u03B3cap", "\u03B3capleft": "\u03B3capleft",
+  "\u03B3\u03B7": "\u03B3\u03B7", "\u03B3\u03C5": "\u03B3\u03C5", "\u03B3\u03C5left": "\u03B3\u03C5\
+    left", "\u03B4": "\u03B4", "\u03B4cap": "\u03B4cap", "\u03B5": "\u03B5", "\u03B5accute": "\u03B5\
+    accute", "\u03B5breathinggrave": "\u03B5breathinggrave", "\u03B5breathless": "\u03B5\
+    breathless", "\u03B5cap": "\u03B5cap", "\u03B5grave": "\u03B5grave", "\u03B6": "\u03B6",
+  "\u03B7": "\u03B7", "\u03B7cap": "\u03B7cap", "\u03B7capleft": "\u03B7capleft",
+  "\u03B7capright": "\u03B7capright", "\u03B7iotasub": "\u03B7iotasub", "\u03B7left": "\u03B7\
+    left", "\u03B7right": "\u03B7right", "\u03B8": "\u03B8", "\u03B8cap": "\u03B8\
+    cap", "\u03B9": "\u03B9", "\u03B9accute": "\u03B9accute", "\u03B9accute\u03B4": "\u03B9\
     accute\u03B4", "\u03B9breathing": "\u03B9breathing", "\u03B9breathless": "\u03B9\
     breathless", "\u03B9breathlesscircumflect\u03B4": "\u03B9breathlesscircumflect\u03B4",
   "\u03B9cap": "\u03B9cap", "\u03B9grave": "\u03B9grave", "\u03B9\u03BD": "\u03B9\u03BD",

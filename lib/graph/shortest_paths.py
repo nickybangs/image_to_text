@@ -5,28 +5,41 @@ from support import *
 
 
 class DijsktraSP:
-	'''Dijsktra's SP algorithm'''
+    '''Dijsktra's SP algorithm'''
 
-	def __init__(self, G, s):
-		self.edge_to = [None for i in range(G.V)]
-		self.dist_to = [np.inf for i in range(G.V)]
-		self.pq = IndexMinPQ(G.V)
-		
-		self.dist_to[s] = 0.0
-		self.pq.insert(s, 0.0)
-		while not self.pq.is_empty():
-			v = self.pq.del_min()
-			for e in G.adj[v]:
-				self.relax(e)
+    def __init__(self, G, s):
+        self.edge_to = [None for i in range(G.V)]
+        self.dist_to = [np.inf for i in range(G.V)]
+        self.pq = IndexMinPQ(G.V)
+        self.dist_to[s] = 0.0
+        self.pq.insert(s, 0.0)
+        while not self.pq.is_empty():
+            v = self.pq.del_min()
+            for e in G.adj[v]:
+                self.relax(e)
 
-	
-	def relax(self, e):
-		v = e._from()
-		w = e._to()
-		if self.dist_to[w] > self.dist_to[v] + e.weight:
-			self.dist_to[w] = self.dist_to[v] + e.weight
-			self.edge_to[w] = e
-			if self.pq.contains(w):
-				self.pq.decrease_key(w, self.dist_to[w])
-			else:
-				self.pq.insert(w, self.dist_to[w])
+
+    def relax(self, e):
+        v = e._from()
+        w = e._to()
+        if self.dist_to[w] > self.dist_to[v] + e.weight:
+            self.dist_to[w] = self.dist_to[v] + e.weight
+            self.edge_to[w] = e
+            if self.pq.contains(w):
+                self.pq.decrease_key(w, self.dist_to[w])
+            else:
+                self.pq.insert(w, self.dist_to[w])
+
+
+    def shortest_path(self, t):
+        e = self.edge_to[t]
+        totalweight = 0
+        sp_indxs = Stack()
+        sp_indxs.push(e._to())
+        while self.edge_to[e._from()] != None:
+            sp_indxs.push(e._from())
+            totalweight += e.weight
+            e = sp.edge_to[e._from()]
+        sp_indxs.push(e._from())
+        totalweight += e.weight
+        return sp_indxs, totalweight

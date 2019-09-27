@@ -103,7 +103,10 @@ def get_next_im():
 	itr += 1
 	lb, ub, lbr, ubr = get_bounds(itr)
 	imwrite(temp_path/'temp_letter.jpg', imgarr[lbr:ubr,lb:ub])
-	img = open(temp_path/'temp_letter.jpg', "rb").read()
+	draw_box(lb, ub, lbr, ubr, imgarr)
+	lb, ub, lbr, ubr = get_bounds(itr,context=1)
+	imwrite(temp_path/'temp_letter_context.jpg', imgarr[lbr:ubr,lb:ub])
+	img = open(temp_path/'temp_letter_context.jpg', 'rb').read()
 	preds = get_top_preds(temp_path/'temp_letter.jpg')
 	letter_options.options =[l[0] for l in preds]
 	letter_options.value = letter_options.options[0]
