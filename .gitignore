@@ -6,3 +6,4 @@ lib/__pycache__/
 lib/graph/__pycache__/
 models/
 nbs/.ipynb_checkpoints/
+app/resources/
